@@ -38,6 +38,9 @@ jobs:
           - os: ubuntu-latest
             rid: linux-x64
             binary-extension: ''
+          - os: ubuntu-latest
+            rid: linux-arm64
+            binary-extension: ''
 
     env:
       RUNTIME_IDENTIFIER: ${{ matrix.rid }}
